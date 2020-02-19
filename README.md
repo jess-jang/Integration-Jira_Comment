@@ -32,10 +32,9 @@ curl -X POST https://$JENKINS_URL/jenkins/job/$JOB_NAME/buildWithParameters \
 > https://developer.atlassian.com/server/jira/platform/rest-apis/
 
 ## GIt Commit Message
-`[TASK_ID] 커밋내용`
+`[JIRA_ID] 커밋내용`
 
-[![git](https://github.com/jess-jang/Integration-Jira_Comment/blob/master/screenshot_git.png?raw=true "git")]
-(https://github.com/jess-jang/Integration-Jira_Comment/blob/master/screenshot_git.png?raw=true "git")
+![git](https://github.com/jess-jang/Integration-Jira_Comment/blob/master/screenshot_git.png?raw=true "git")
 
 ## Jira
-[![jira](https://github.com/jess-jang/Integration-Jira_Comment/blob/master/screenshot_jira.png?raw=true "jira")](https://github.com/jess-jang/Integration-Jira_Comment/blob/master/screenshot_jira.png?raw=true "jira")
+![jira](https://github.com/jess-jang/Integration-Jira_Comment/blob/master/screenshot_jira.png?raw=true "jira")
