@@ -22,7 +22,7 @@ curl -X POST https://$JENKINS_URL/jenkins/job/$JOB_NAME/buildWithParameters \
     --data-urlencode "JIRA_AUTHORIZATION=$JIRA_AUTHORIZATION"
 ~~~
 
-## 활용 API
+## APIs
 ### Jenkins
 마지막빌드 상태 조회 : `https://{JENKINS}/jenkins/{JOB_NAME}/lastBuild/api/json`
 > https://wiki.jenkins.io/display/JENKINS/Remote+access+API
