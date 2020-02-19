@@ -1,7 +1,11 @@
-## 젠킨스 빌드 후 지라 댓글 등록
-- Jenkins Build
-- Jenkins API를 이용하여 Git Change Log 추출
-- Commit Message에 있는 Jira ID을 추출하여 댓글 등록 
+## 지라 댓글 작성
+- 빌드결과, 빌드번호
+- 작업 내용 및 반영내용
+- 작업자
+
+## 방법
+- Jenkins API > Git Diff List 
+- Commit Message의 Jira ID 파싱
 
 ## Jenkins Configuration
 Build > Execute Groovy Script
